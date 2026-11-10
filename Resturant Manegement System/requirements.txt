@@ -1,0 +1,69 @@
+Understood! From now on, I'll give you programming tasks without providing the code. You will write the code yourself, run it in the terminal, and share your solution with me. I'll review it like a programming instructor.
+
+# C++ Practical Challenge #1: Restaurant Management System 🍔
+
+**Difficulty:** Intermediate  
+**Language:** C++  
+**Concepts:** Variables, Conditional Statements, Loops, Functions, Break & Continue.
+
+### Scenario
+You are developing a simple restaurant ordering system. Customers can select food items, enter quantities, and receive their final bill.
+
+### Your Requirements
+
+**1. Display Menu**
+Display the following menu:
+
+| Item | Price |
+|---|---:|
+| Burger | Rs. 500 |
+| Pizza | Rs. 1200 |
+| Sandwich | Rs. 300 |
+| Fries | Rs. 200 |
+| Cold Drink | Rs. 100 |
+
+**2. Take Customer Input**
+- Ask the customer to select an item.
+- Ask for its quantity.
+- Calculate the item's total price.
+
+**3. Conditional Statements**
+- If the customer selects an invalid item, display an error.
+- If quantity is zero or negative, reject the order.
+- If the total bill exceeds Rs. 2000, give a 10% discount.
+
+**4. Loops**
+- Allow customers to order multiple items.
+- After each order, ask whether they want to continue.
+- Stop when the customer chooses to finish.
+
+**5. Functions**
+
+Create at least these three functions:
+
+- `displayMenu()` – Display restaurant menu.
+- `calculateBill()` – Calculate the bill.
+- `applyDiscount()` – Calculate the discount.
+
+**6. Final Output**
+
+Display:
+- Total amount before discount.
+- Discount amount.
+- Final payable amount.
+
+---
+
+### Rules
+1. Don't use arrays or classes.
+2. Use functions.
+3. Use at least one loop.
+4. Use conditional statements.
+5. Run everything in your VS Code terminal.
+
+### Bonus Challenge ⭐
+Allow the customer to order multiple different items in a single session.
+
+**Your deadline:** Complete it yourself before asking for hints.
+
+When you finish, send me your C++ code. I'll evaluate it out of 100 marks, identify logical errors, and suggest improvements without unnecessarily giving you the solution.
