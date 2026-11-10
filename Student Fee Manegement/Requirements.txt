@@ -1,0 +1,101 @@
+# STUDENT FEE MANAGEMENT SYSTEM
+**Programming Language:** C++  
+**Project Type:** Console-Based Application
+
+## 1. Problem Statement
+Educational institutions need an efficient way to manage student fee records, calculate scholarships, track payments, and identify outstanding dues. The system should automate these calculations and generate individual student fee reports.
+
+## 2. INPUT REQUIREMENTS
+
+The system must accept the following information from the user:
+
+### A. Student Information
+1. Student Name
+2. Registration Number
+3. Department
+4. Semester
+
+### B. Fee Information
+5. Total Semester Fee (Rs.)
+6. Scholarship Percentage (%)
+
+### C. Payment Information
+7. Amount Already Paid (Rs.)
+
+## 3. PROCESSING REQUIREMENTS
+
+The system must perform the following calculations:
+
+1. **Scholarship Amount**
+   - Calculate the scholarship using the total semester fee and scholarship percentage.
+
+2. **Final Payable Fee**
+   - Subtract the scholarship amount from the total semester fee.
+
+3. **Remaining Dues**
+   - Subtract the amount already paid from the final payable fee.
+
+4. **Payment Status**
+   - If remaining dues = 0: FULLY PAID.
+   - If remaining dues > 0: PARTIALLY PAID.
+   - If amount paid = 0: UNPAID.
+   - If amount paid exceeds payable fee: Display an appropriate error.
+
+## 4. OUTPUT REQUIREMENTS
+
+The system must display a complete student fee report containing:
+
+- Student Name
+- Registration Number
+- Department
+- Semester
+- Total Semester Fee
+- Scholarship Percentage
+- Scholarship Amount
+- Final Payable Fee
+- Amount Already Paid
+- Remaining Dues
+- Payment Status
+
+## 5. SAMPLE OUTPUT
+
+========================================
+       STUDENT FEE MANAGEMENT SYSTEM
+========================================
+
+Student Name: Hafiz  
+Registration No: 2026-CS-101  
+Department: BS Computer Science  
+Semester: 1  
+
+Total Semester Fee: Rs. 80,000  
+Scholarship Percentage: 25%  
+Scholarship Amount: Rs. 20,000  
+
+Final Payable Fee: Rs. 60,000  
+Amount Already Paid: Rs. 30,000  
+Remaining Dues: Rs. 30,000  
+
+Payment Status: PARTIALLY PAID
+
+========================================
+
+## 6. ADDITIONAL REQUIREMENTS
+
+- The system should support multiple student records.
+- Reject negative fee amounts.
+- Scholarship percentage must be between 0 and 100.
+- Payment amount must not exceed the final payable fee.
+- Provide an option to calculate another student's fee.
+- Provide an option to exit the program.
+
+## 7. PROGRAMMING CONCEPTS TO USE
+
+- Variables and Data Types
+- Input/Output (cin and cout)
+- Arithmetic Operators
+- Conditional Statements (if-else)
+- Loops (for, while, or do-while)
+- Functions
+- Switch Statements
+- Arrays (for multiple student records)
